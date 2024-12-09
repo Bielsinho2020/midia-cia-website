@@ -29,6 +29,13 @@ class SiteInteractions {
   handleTooltips() {
     const links = document.querySelectorAll(".partner-link, .social-link");
     links.forEach((link) => {
+      // Remove tooltips existentes antes de criar novos
+      const existingTooltip = link.querySelector(".tooltip");
+      if (existingTooltip) {
+        existingTooltip.remove();
+      }
+
+      // Cria apenas um tooltip por elemento
       link.addEventListener("mouseenter", (e) => this.showTooltip(e));
       link.addEventListener("mouseleave", () => this.hideTooltip());
     });
