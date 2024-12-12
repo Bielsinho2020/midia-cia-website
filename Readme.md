@@ -12,4 +12,4 @@ Website responsivo para loja de mídias digitais desenvolvido com HTML, CSS e Ja
 - Design responsivo
 - Animações interativas
 
-- Você pode encontra-lo em: https://github.com/GabrielRibeiroro/midia-cia-website.git
+- Você pode encontra-lo em: https://gabrielribeiroro.github.io/midia-cia-website/
